@@ -5,8 +5,6 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
-/* Estudar essa dica do gpt
- */
 html,
 body {
   color: #fff;
@@ -130,6 +128,7 @@ mark {
   font-size: 16px;
   margin-bottom: 20px;
   width: 100%;
+  line-height: 24px;
 }
 .trilhachallenger h2 {
   font-size: 50px;
