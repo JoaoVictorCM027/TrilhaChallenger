@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+/*
+header {
+  background-image: url(/NaTrilhaChallenger/img/backgroundfinal.jpg);
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  padding: 25px 20px;
+  filter: brightness(70%);
+}
+#nofilter {
+  filter: none;
+}
+*/
+body {
+  background-color: #c9f31d;
+}
+#finalheader {
+  display: flex;
+}
+#finalheader img {
+  filter: brightness(50%);
+  height: 100vh;
+  width: 100%;
+}
+#nofilter {
+  position: absolute;
+  text-align: center;
+  align-items: center;
+  top: 30%;
+}
+h1 {
+  font-size: 4rem;
+  color: #c9f31d;
+}
+header p {
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 300;
+  margin: 10px 35px;
+}
+
+.sociais {
+  background-color: #201f1f;
+  padding: 60px 30px;
+  text-align: center;
+}
+.sociais h2 {
+  color: #fff;
+}
+mark {
+  color: #c9f31d;
+  background-color: transparent;
+}
+.cards {
+  display: flex;
+  margin-top: 10px;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.box {
+  border-radius: 10px;
+  padding: 20px 10px;
+  width: 300px;
+  height: 300px;
+  background-color: #c9f31d;
+}
+.box img {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 10px;
+}
+.btn {
+  text-decoration: none;
+  cursor: pointer;
+  color: #c9f31d;
+  padding: 10px 20px;
+  background-color: #010101;
+  border-radius: 10px;
+}
+.box p {
+  margin: 20px 20px;
+  font-size: 0.9rem;
+}
+.box h3 {
+  margin: 10px 10px;
+  font-size: 1.1rem;
+}
+footer {
+  background-color: #c9f31d;
+  padding: 40px 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+footer h2 {
+  padding-bottom: 30px;
+}
